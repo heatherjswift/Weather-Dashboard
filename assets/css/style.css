@@ -23,12 +23,18 @@ header {
     margin-bottom: 10px;
 }
 
-/* #left-column {
-    display: flex;
-    justify-content: left;
+.forecast-box {
+    background-color: rgb(18, 6, 61);
+    color: white;
+    padding: 10px;
+    margin: 20px;
 }
 
-#current-weather {
-    display: flex;
-    justify-content: right;
+#five-day {
+    padding-left: 340px;
+}
+
+/* #left-column {
+    margin-bottom: 10000px;
 } */
+
