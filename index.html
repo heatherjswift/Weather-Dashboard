@@ -13,7 +13,37 @@
         <h1>Weather Dashboard</h1>
     </header>
 
+    
+    <div class="container row main">
+        <!-- left column -->
+        <div class="col-3" id="left-column">
+            <div>
+                <h2>Search for a City:</h2>
+                <input class="col-12" type="text" placeholder="enter city here">
+            </div>
+            <button type="button" class="btn btn-info col-12" id="search-button">Search</button>
+            <!-- search history -->
+            <div id="search-history">
+            
+            </div>
+        </div>
 
+        <!-- current day display -->
+        <div class="container border border-dark col-9" id="current-Weather">
+            <!-- City name and current date -->
+            <h3></h3>
+            <p>Temp:</p>
+            <p>Wind:</p>
+            <p>Humidity:</p>
+            <p>UV Index:</p>
+        </div>
+    </div>
+    <div>
+        <h4>5-Day Forecast:</h4>
+            <div class="forecast-box col-2.4">
+
+            </div>
+    </div>
     
     <script src="assets/js/script.js"></script>
 </body>
