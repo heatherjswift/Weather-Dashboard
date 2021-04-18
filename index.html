@@ -19,23 +19,23 @@
         <div class="col-3" id="left-column">
             <div>
                 <h2>Search for a City:</h2>
-                <input class="col-12" type="text" placeholder="enter city here">
+                <input class="col-12" type="text" placeholder="enter city here" id="search-bar">
             </div>
             <button type="button" class="btn btn-info col-12" id="search-button">Search</button>
             <!-- search history -->
             <div id="search-history">
-            
+                
             </div>
         </div>
 
         <!-- current day display -->
         <div class="container border border-dark col-9" id="current-Weather">
             <!-- City name and current date -->
-            <h3></h3>
+            <h3 id="currentDay" class="lead">Today's date</h3>
             <p>Temp:</p>
             <p>Wind:</p>
             <p>Humidity:</p>
-            <p>UV Index:</p>
+            <p class="uvi">UV Index:</p>
         </div>
     </div>
     
@@ -44,6 +44,7 @@
             <div class="forecast-box col-2">
                 <!-- date -->
                 <h5></h5>
+                <img src="">
                 <p>Temp:</p>
                 <p>Wind:</p>
                 <p>Humidity:</p>
@@ -77,7 +78,7 @@
                 <p>Humidity:</p>
             </div>
     </div>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
