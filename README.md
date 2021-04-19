@@ -11,7 +11,7 @@ An app to display the weather and the 5 day forecast.
 * OpenWeather One Call API
 
 ## Website
-https://heatherjswift.github.io/calender-app/
+
 
 ## Screenshot
-![appscreenshot](screenshot.png)
+![appscreenshot](assets/images/screenshot.png)
